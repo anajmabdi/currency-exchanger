@@ -1,0 +1,29 @@
+<html lang="en-US">
+
+<head>
+  <title>Currency Exchange</title>
+</head>
+
+<body>
+  <div class="container">
+    <h1>Convert USD into another currency</h1>
+    <p>To exchange, please enter an amount.</p>
+    <form>
+      <label for="amount">Enter an amount here:</label>
+      <input id="amount" type="number" value="0"> <br>
+
+      <label for="question2">Spend money, save money, or no money?</label>
+      <select id="question2">
+        <option hidden selected value="0"></option>
+        <option value="1">SOS - Somali Shilling</option>
+        <option value="2">KRW - South Korean Won</option>
+        <option value="3">CAD - Canadian Dollar</option>
+      </select>
+
+      <button type="submit" class="btn-success" id="currency">Convert Currency</button>
+    </form>
+    <p id="showResponse"></p>
+  </div>
+</body>
+
+</html>

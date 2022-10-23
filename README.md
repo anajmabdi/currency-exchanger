@@ -1,21 +1,17 @@
-// Remember:
-// -  Run 'npm install' before starting on code.
-// - 'npm run build' when bundling files.
-
-# <div align="center"> **Name**</div>
+# <div align="center"> **Exchange Currency**</div>
 
 #### <div align="center"> By Najma Abdi </div>  
 <p>&nbsp;</p>
 
 # <div align="center"> Technologies Used
 <div align="center">* Javascript
-<div align="center">*
-<div align="center">*
+<div align="center">* HTML
+<div align="center">* CSS
 
 <p>&nbsp;</p>
 
 # <div align="center"> Description </div>
-<div align="center"> 
+<div align="center"> . In this application, a user should be able to type in an amount (in U.S. dollars) and then choose which currency it should be converted to (such as francs, marks, rupees, and so on).
 
  </div>
 
@@ -25,13 +21,20 @@
 # <div align="center">Setup/Installation Requirements 
 <div align="center">* Clone this repository to your desktop 
 <div align="center">* Navigate to the top level of the directory
-<div align="center">* run 'code .' in terminal after initializing git
+<div align="center">* Run 'code .' in terminal after initializing git
+<div align="center"> Create a .env file where API key is stored and add this file in .gitignore to hide content in there.
+<div align="center">To get an API key, follow these steps:
+
+- Choose a plan while making an account at **[Exchange Rate](https://www.exchangerate-api.com/#pricing)**.
+- Look over the [documentation](https://www.exchangerate-api.com/docs/pair-conversion-requests) for the Pair ExchangeRate-API endpoint.
 <p>&nbsp;</p>
 <p>&nbsp;</p>
 
 
 # <div align="center"> Known bugs </div>
-## **None**
+     Error: Can't resolve 'jquery' in '/Users/najmaabdi/Desktop/currency-exchanger/node_modules/bootstrap/dist/js'
+
+    error  'ConvertService' is defined but never used
 <p>&nbsp;</p>
 
 #### License
