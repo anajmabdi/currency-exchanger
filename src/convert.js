@@ -1,6 +1,6 @@
 export default class ConvertService {
-  static exchange(baseUSD, newCurrency) {
-    return fetch(`https://v6.exchangerate-api.com/v6/5f227f3853a28e15e39e8e2b/pair/${baseUSD}/${newCurrency}`)
+  static exchange(targetCurr, amountUSD) {
+    return fetch(`https://v6.exchangerate-api.com/v6/${process.env.API_KEY}/pair/USD/${targetCurr}/${amountUSD}`)
       .then(function (response) {
         if (!response.ok) {
           const errorMessage = `${response.status} ${response.statusTest}`;
