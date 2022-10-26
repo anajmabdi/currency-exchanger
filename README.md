@@ -11,7 +11,7 @@
 <p>&nbsp;</p>
 
 # <div align="center"> Description </div>
-<div align="center"> . In this application, a user should be able to type in an amount (in U.S. dollars) and then choose which currency it should be converted to (such as francs, marks, rupees, and so on).
+<div align="center"> In this application, a user should be able to type in an amount (in U.S. dollars) and then choose which currency it should be converted to (such as francs, marks, rupees, and so on).
 
  </div>
 
@@ -22,7 +22,7 @@
 <div align="center">* Clone this repository to your desktop 
 <div align="center">* Navigate to the top level of the directory
 <div align="center">* Run 'code .' in terminal after initializing git
-<div align="center"> Create a .env file where API key is stored and add this file in .gitignore to hide content in there.
+<div align="center">* Create a .env file and store your API key in a ' API_KEY ' variable. Then add this file in .gitignore to hide your key.
 <div align="center">To get an API key, follow these steps:
 
 - Choose a plan while making an account at **[Exchange Rate](https://www.exchangerate-api.com/#pricing)**.
@@ -32,9 +32,7 @@
 
 
 # <div align="center"> Known bugs </div>
-     Error: Can't resolve 'jquery' in '/Users/najmaabdi/Desktop/currency-exchanger/node_modules/bootstrap/dist/js'
-
-    error  'ConvertService' is defined but never used
+    Failed to load resource: the server responded with a status of 403 ()
 <p>&nbsp;</p>
 
 #### License
