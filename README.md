@@ -22,6 +22,7 @@
 <div align="center">* Clone this repository to your desktop 
 <div align="center">* Navigate to the top level of the directory
 <div align="center">* Run 'code .' in terminal after initializing git
+<div align="center">*Run 'npm install' to install dependencies. 
 <div align="center">* Create a .env file and store your API key in a ' API_KEY ' variable. Then add this file in .gitignore to hide your key.
 <div align="center">To get an API key, follow these steps:
 
@@ -32,7 +33,7 @@
 
 
 # <div align="center"> Known bugs </div>
-    Failed to load resource: the server responded with a status of 403 ()
+None
 <p>&nbsp;</p>
 
 #### License
